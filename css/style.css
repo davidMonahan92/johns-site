@@ -1,0 +1,120 @@
+body {
+	margin: 0;
+	padding: 0;
+	overflow-y: hidden;
+}
+
+.flexContainer {
+	display: flex;
+}
+
+.blueBackground {
+	background: lightskyblue;
+}
+
+.flexItem {
+	flex: 1;
+}
+
+.flexStart {
+	justify-content: flex-start;
+}
+
+.flexEnd {
+	justify-content: flex-end;
+}
+
+.flexColumn {
+	flex-direction: column;
+}
+
+.fullHeight {
+	height: 100vh;
+}
+
+.nav {
+	list-style: none;
+}
+
+.nav a {
+	text-decoration: none;
+	display: block;
+	color: white;
+	padding: 0 8px;
+	font-size: 18px;
+}
+
+.last {
+	margin-right: 5px;
+}
+
+.mainHeading {
+	text-decoration: underline;
+	margin: 5px 0;
+	max-width: 100%;
+	border: 1px solid black;
+	padding: 5px;
+}
+
+.main {
+	order: 2;
+	padding: 20px;
+	border-left: 1px solid #777777;
+	border-right: 1px solid #777777;
+}
+
+.sidebar {
+	width: 20%;
+	background: white;
+	padding: 20px;
+}
+
+.sidebarLeft {
+	order: 1;
+}
+
+.image-container {
+	width: 90%;
+	height: 50%;
+	margin: 5px 0;
+	position: relative;
+	text-align: center;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.centered {
+	position: absolute;
+	bottom: 8px;
+	right: 16px;
+}
+
+.text {
+	z-index: 1;
+}
+
+.sidebarRight {
+	order: 3;
+}
+
+.whiteText {
+	color: white;
+}
+
+.flexCenter {
+	align-items: center;
+	justify-content: center;
+}
+
+.height50 {
+	
+	height: 50px;
+	font-size: 18px;
+	
+}
+
+.footerEnd {
+	flex-direction: row;
+	align-self: flex-end;
+}
